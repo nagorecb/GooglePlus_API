@@ -20,7 +20,7 @@ public class clsMain
 		  try 
 		  {  
 		   itfSistAutorizacionGoogle objServer = new clsGooglePlus();
-		   Registry registry = LocateRegistry.createRegistry((Integer.valueOf(args[1])));
+		   Registry registry = LocateRegistry.createRegistry((Integer.valueOf(Puerto)));
 		   registry.rebind(name, objServer);
 		 //Naming.rebind(name, objServer);
 		   System.out.println("* Server '" + name + "' active and waiting...");
