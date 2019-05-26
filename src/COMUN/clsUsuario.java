@@ -1,6 +1,8 @@
 package COMUN;
 
-public class clsUsuario 
+import java.io.Serializable;
+
+public class clsUsuario implements Serializable
 {
 	private String email;
 		
