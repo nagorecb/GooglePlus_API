@@ -34,7 +34,7 @@ public class clsGooglePlus extends UnicastRemoteObject implements itfSistAutoriz
 		this.listaUsuarios = listaUsuarios;
 	}
 
-	public boolean ValidarUsuario (String email)
+	public boolean ValidarUsuario (String email) throws RemoteException
 	{
 		for (clsUsuario usuario : listaUsuarios) 
 		{
