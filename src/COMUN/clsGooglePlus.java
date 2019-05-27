@@ -4,6 +4,8 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 
+import APIs.itfSistAutorizacionGoogle;
+
 public class clsGooglePlus extends UnicastRemoteObject implements itfSistAutorizacionGoogle
 {
 	private static final long serialVersionUID = 1L;
